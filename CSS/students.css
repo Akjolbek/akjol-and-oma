@@ -1,0 +1,52 @@
+body {
+  background-image: url(https://img1.akspic.ru/originals/2/0/5/5/6/165502-uzor-lazurnyj-yachejka-purpur-seryj_cvet-3840x2160.png);
+}
+
+#myInput { 
+    background-image: url('/css/searchicon.png');  
+    background-position: 10px 12px; /* */ 
+    background-repeat: no-repeat; /* */ 
+    width: 500px; /*  */ 
+    font-size: 16px; /* */ 
+    padding: 12px 20px 12px 40px; /* */ 
+    border: 1px solid #ddd; /*  */ 
+    margin-bottom: 12px; /*  */ 
+    border-radius: 10px;
+  }
+  
+  .inp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .kpi {
+    display: flex;
+    justify-content: center;
+  }
+   
+  #myTable { 
+    border-collapse: collapse; /*  */ 
+    width: 1000px; /*  */ 
+    border: 1px solid #ddd; /* */ 
+    font-size: 18px; /* */ 
+    color: white;
+  } 
+
+  .header {
+    color: white;
+  }
+   
+  #myTable th, #myTable td { 
+    text-align: left; /* */ 
+    padding: 12px; /* */ 
+  } 
+   
+  #myTable tr { 
+    /*  */ 
+    border-bottom: 1px solid #ddd; 
+  }
+   
+  /* #myTable tr.header, #myTable tr:hover { 
+    /*  */ 
+    /* background-color: #f1f1f1;  */
+  /* } 
